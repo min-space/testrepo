@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홈페이지 만들기</title>
+</head>
+<body>
+    <header>
+        <h1>부산IT교육센터</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Git & GitHub</h2>
+            <p>Git & GitHub 수업입니다.</p>
+        </section>
+        <section>
+            <h2>Git & GitHub</h2>
+            <p>Git & GitHub 수업입니다.</p>
+        </section>
+        <section class="contents">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 BusanIT All rights reserved</p>
+    </footer>
+    <!-- script로 내용이 추가되는 경우 -->
+    <script>
+        const contents = document.querySelector('.contents');
+        contents.innerHTML = '<h2>Git & GitHub</h2><p>Git & GitHub 수업입니다.</p><button>바로가기</button>';
+    </script>
+</body>
+</html>
